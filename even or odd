@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a,b,c;
+    printf("1 is odd number \n");
+    printf("2 is Even number \n");
+    for (a=3;a<=100;++a){
+        if (a%2==0){
+        printf("%d is a even number \n",a);}
+        else{
+        printf("%d is an odd number \n",a);}
+    }
+
+    return 0;
+}
