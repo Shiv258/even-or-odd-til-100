@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,c,d,e;
+    printf("Enter your choice\n 1)Perimeter of rectangle \n 2)Area of rectangle");
+    scanf("%d",&a);
+    if (a==1){
+        printf("enter length of rectangle");
+        scanf("%d",&b);
+        printf("enter breadth of rectangle");
+        scanf("%d",&c);
+        d=2 * (b+c);
+        printf("Perimeter of rectangle is %d",d);
+        }
+    if (a==2){
+        printf("enter length of rectangle");
+        scanf("%d",&b);
+        printf("enter breadth of rectangle");
+        scanf("%d",&c);
+        d=b*c;
+        printf("area of rectangle is %d",d);
+        }
+        
